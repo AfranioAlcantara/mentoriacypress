@@ -1,0 +1,17 @@
+{
+  "name": "mentoriacypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"cypress open",
+    "cy:dash":"npx cypress run --record --key 76a5fdaf-3aac-4872-b58a-1bcf75c992e7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  }
+}
