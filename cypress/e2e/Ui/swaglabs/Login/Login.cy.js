@@ -54,5 +54,11 @@ describe('testes validos na tela de login', () => {
 
         cy.get(TelaInicial.mensagemDeErro).should('have.text','Epic sadface: Password is required')
     });
+    it('teste 05 tentativa de login com campo senha vasio', () => {
+        
+        cy.login('standard_user','{insert}')
+
+        cy.get(TelaInicial.mensagemDeErro).should('have.text','Epic sadface: Password is required')
+    });
     
 });
