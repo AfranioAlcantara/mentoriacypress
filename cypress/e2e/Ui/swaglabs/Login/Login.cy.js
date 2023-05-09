@@ -31,7 +31,7 @@ describe('testes validos na tela de login', () => {
         cy.get(TelaInicial.bannerSwagLabs).should('have.text','Swag Labs')
     });
     it('teste 02 validação imagem dos itens da loja', () => {
-        cy.login('standard_user','secret_sauce')
+        cy.login('problem_user','secret_sauce')
 
         validaImgDe4Intens();
 
