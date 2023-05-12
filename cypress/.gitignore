@@ -252,3 +252,4 @@ $RECYCLE.BIN/
 *.msp
 # Windows shortcuts
 *.lnk
+cypress.env.json
